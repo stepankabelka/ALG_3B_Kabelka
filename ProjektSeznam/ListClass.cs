@@ -159,7 +159,7 @@ namespace ProjektSeznam
             Console.WriteLine(Program.Current.Content);
             Console.WriteLine();
             Console.Write("Opravdu chcete odstranit tento záznam? (ano/ne): ");
-            string odpoved = Console.ReadLine()?.ToLower();
+            string odpoved = Console.ReadLine();
 
             if (odpoved == "ano")
             {
